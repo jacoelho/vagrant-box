@@ -1,4 +1,9 @@
 #!/bin/bash -eux
 
-apt-get update -qq
-apt-get install -q -y vim-nox
+export DEBIAN_FRONTEND=noninteractive
+
+apt-get install \
+  vim-nox \
+  curl \
+  git \
+  build-essential

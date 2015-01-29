@@ -7,7 +7,7 @@ echo "deb-src https://deb.nodesource.com/node $(lsb_release -cs) main" >> /etc/a
 
 apt-get update -qq
 
-apt-get install nodejs -y
+apt-get install nodejs
 
 npm install -g yo
 npm install -g bower
