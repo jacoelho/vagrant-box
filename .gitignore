@@ -38,3 +38,5 @@ target-eclipse
 .vagrant
 
 *.vdi
+packer/packer_cache
+

@@ -57,7 +57,7 @@
       "virtualbox_version_file": ".vbox_version",
       "vm_name": "packer-ubuntu-{{user `ubuntu_version`}}-amd64"
     }
-	
+
   ],
   "post-processors": [
     {
@@ -76,12 +76,14 @@
         "scripts/ubuntu/networking.sh",
         "scripts/ubuntu/sudoers.sh",
         "scripts/common/vagrant.sh",
-		"scripts/ubuntu/kernel.sh",
-		"scripts/ubuntu/packages.sh",
-		"scripts/ubuntu/docker.sh",
-		"scripts/ubuntu/fig.sh",
-		"scripts/ubuntu/node.sh",
-		"scripts/ubuntu/erlang.sh",
+    		"scripts/ubuntu/kernel.sh",
+    		"scripts/ubuntu/packages.sh",
+    		"scripts/ubuntu/docker.sh",
+    		"scripts/ubuntu/fig.sh",
+    		"scripts/ubuntu/node.sh",
+    		"scripts/ubuntu/erlang.sh",
+        "scripts/ubuntu/ruby.sh",
+        "scripts/ubuntu/postgresql.sh",
         "scripts/common/vmtools.sh",
         "scripts/ubuntu/cleanup.sh",
         "scripts/common/minimize.sh"
